@@ -1,0 +1,16 @@
+2020-07-05T14:48:24+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\estore\wp-content\themes\estore\functions.php on line 15
+
+2020-07-05T14:49:24+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\estore\wp-content\plugins\elementor\includes\controls\tabs.php on line 4
+
+2020-07-05T14:49:49+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\estore\wp-includes\Requests\Transport\cURL.php on line 163
+
+2020-07-05T14:52:07+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\estore\wp-admin\includes\ajax-actions.php on line 22
+
+2020-07-05T14:52:07+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\estore\wp-admin\includes\ajax-actions.php on line 22
+
+2020-07-05T14:52:07+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\estore\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Notes\DataStore.php on line 10
+
+2020-07-05T14:52:07+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\estore\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Notes\DataStore.php on line 10
+
+2020-07-05T14:52:53+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\estore\wp-admin\includes\options.php on line 15
+

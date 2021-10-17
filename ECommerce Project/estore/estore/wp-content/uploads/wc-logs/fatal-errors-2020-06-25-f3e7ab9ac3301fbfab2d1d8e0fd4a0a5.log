@@ -1,0 +1,88 @@
+2020-06-25T03:18:17+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\estore\wp-admin\includes\media.php on line 16
+
+2020-06-25T03:18:25+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\estore\wp-content\plugins\elementor\includes\widgets\common.php on line 4
+
+2020-06-25T03:18:27+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, null given, called in C:\xampp\htdocs\estore\wp-includes\class-wp-hook.php on line 289 and defined in C:\xampp\htdocs\estore\wp-content\plugins\elementor\includes\template-library\sources\local.php:1081
+Stack trace:
+#0 C:\xampp\htdocs\estore\wp-includes\class-wp-hook.php(289): Elementor\TemplateLibrary\Source_Local->on_save_post(1285, NULL)
+#1 C:\xampp\htdocs\estore\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\estore\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\estore\wp-includes\post.php(4153): do_action('save_post', 1285, NULL, true)
+#4 C:\xampp\htdocs\estore\wp-includes\post.php(4244): wp_insert_post(Array, false)
+#5 C:\xampp\htdocs\estore\wp-content\plugins\elementor\includes\db.php(331): wp_update_post(Array)
+#6 C:\xampp\htdocs\estore\wp-content\plugins\elementor\core\base\document.php(922): Elementor\DB- in C:\xampp\htdocs\estore\wp-content\plugins\elementor\includes\template-library\sources\local.php on line 1081
+
+2020-06-25T03:18:27+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, null given, called in C:\xampp\htdocs\estore\wp-includes\class-wp-hook.php on line 289 and defined in C:\xampp\htdocs\estore\wp-content\plugins\elementor\includes\template-library\sources\local.php:1081
+Stack trace:
+#0 C:\xampp\htdocs\estore\wp-includes\class-wp-hook.php(289): Elementor\TemplateLibrary\Source_Local->on_save_post(1285, NULL)
+#1 C:\xampp\htdocs\estore\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\estore\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\estore\wp-includes\post.php(4153): do_action('save_post', 1285, NULL, true)
+#4 C:\xampp\htdocs\estore\wp-includes\post.php(4244): wp_insert_post(Array, false)
+#5 C:\xampp\htdocs\estore\wp-content\plugins\elementor\includes\db.php(331): wp_update_post(Array)
+#6 C:\xampp\htdocs\estore\wp-content\plugins\elementor\core\base\document.php(922): Elementor\DB- in C:\xampp\htdocs\estore\wp-content\plugins\elementor\includes\template-library\sources\local.php on line 1081
+
+2020-06-25T03:21:38+00:00 CRITICAL Uncaught Error: Call to undefined method DateTime::format() in C:\xampp\htdocs\estore\wp-includes\functions.php:50
+Stack trace:
+#0 C:\xampp\htdocs\estore\wp-includes\class-wp-query.php(4299): mysql2date('d.m.y', '2016-01-28 12:0...', false)
+#1 C:\xampp\htdocs\estore\wp-includes\class-wp-query.php(4248): WP_Query->generate_postdata(Object(WP_Post))
+#2 C:\xampp\htdocs\estore\wp-includes\query.php(1172): WP_Query->setup_postdata(Object(WP_Post))
+#3 C:\xampp\htdocs\estore\wp-content\plugins\elementor\includes\db.php(485): setup_postdata(Object(WP_Post))
+#4 C:\xampp\htdocs\estore\wp-content\plugins\elementor\core\editor\editor.php(106): Elementor\DB->switch_to_post(118)
+#5 C:\xampp\htdocs\estore\wp-includes\class-wp-hook.php(287): Elementor\Core\Editor\Editor->init('')
+#6 C:\xampp\htdocs\estore\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\estore\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\estore\wp-admin\admin.php(401): do_action('admin_acti in C:\xampp\htdocs\estore\wp-includes\functions.php on line 50
+
+2020-06-25T03:21:38+00:00 CRITICAL Uncaught Error: Call to undefined method DateTime::format() in C:\xampp\htdocs\estore\wp-includes\functions.php:50
+Stack trace:
+#0 C:\xampp\htdocs\estore\wp-includes\class-wp-query.php(4299): mysql2date('d.m.y', '2016-01-28 12:0...', false)
+#1 C:\xampp\htdocs\estore\wp-includes\class-wp-query.php(4248): WP_Query->generate_postdata(Object(WP_Post))
+#2 C:\xampp\htdocs\estore\wp-includes\query.php(1172): WP_Query->setup_postdata(Object(WP_Post))
+#3 C:\xampp\htdocs\estore\wp-content\plugins\elementor\includes\db.php(485): setup_postdata(Object(WP_Post))
+#4 C:\xampp\htdocs\estore\wp-content\plugins\elementor\core\editor\editor.php(106): Elementor\DB->switch_to_post(118)
+#5 C:\xampp\htdocs\estore\wp-includes\class-wp-hook.php(287): Elementor\Core\Editor\Editor->init('')
+#6 C:\xampp\htdocs\estore\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\estore\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\estore\wp-admin\admin.php(401): do_action('admin_acti in C:\xampp\htdocs\estore\wp-includes\functions.php on line 50
+
+2020-06-25T03:30:40+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, instance of stdClass given, called in C:\xampp\htdocs\estore\wp-includes\class-wp-hook.php on line 289 and defined in C:\xampp\htdocs\estore\wp-content\plugins\elementor\includes\template-library\sources\local.php:1081
+Stack trace:
+#0 C:\xampp\htdocs\estore\wp-includes\class-wp-hook.php(289): Elementor\TemplateLibrary\Source_Local->on_save_post(1287, Object(stdClass))
+#1 C:\xampp\htdocs\estore\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\estore\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\estore\wp-includes\post.php(4153): do_action('save_post', 1287, Object(stdClass), true)
+#4 C:\xampp\htdocs\estore\wp-includes\post.php(4244): wp_insert_post(Array, false)
+#5 C:\xampp\htdocs\estore\wp-content\plugins\elementor\core\settings\page\manager.php(140): wp_update_post(Array)
+#6 C:\xampp\htdocs\estore\wp-content\plugi in C:\xampp\htdocs\estore\wp-content\plugins\elementor\includes\template-library\sources\local.php on line 1081
+
+2020-06-25T03:45:33+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, instance of stdClass given, called in C:\xampp\htdocs\estore\wp-includes\class-wp-hook.php on line 289 and defined in C:\xampp\htdocs\estore\wp-content\plugins\elementor\includes\template-library\sources\local.php:1081
+Stack trace:
+#0 C:\xampp\htdocs\estore\wp-includes\class-wp-hook.php(289): Elementor\TemplateLibrary\Source_Local->on_save_post(1289, Object(stdClass))
+#1 C:\xampp\htdocs\estore\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\estore\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\estore\wp-includes\post.php(4153): do_action('save_post', 1289, Object(stdClass), true)
+#4 C:\xampp\htdocs\estore\wp-includes\post.php(4244): wp_insert_post(Array, false)
+#5 C:\xampp\htdocs\estore\wp-content\plugins\elementor\core\settings\page\manager.php(140): wp_update_post(Array)
+#6 C:\xampp\htdocs\estore\wp-content\plugi in C:\xampp\htdocs\estore\wp-content\plugins\elementor\includes\template-library\sources\local.php on line 1081
+
+2020-06-25T04:09:13+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, instance of stdClass given, called in C:\xampp\htdocs\estore\wp-includes\class-wp-hook.php on line 289 and defined in C:\xampp\htdocs\estore\wp-content\plugins\elementor\includes\template-library\sources\local.php:1081
+Stack trace:
+#0 C:\xampp\htdocs\estore\wp-includes\class-wp-hook.php(289): Elementor\TemplateLibrary\Source_Local->on_save_post(1301, Object(stdClass))
+#1 C:\xampp\htdocs\estore\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\estore\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\estore\wp-includes\post.php(4153): do_action('save_post', 1301, Object(stdClass), true)
+#4 C:\xampp\htdocs\estore\wp-includes\post.php(4244): wp_insert_post(Array, false)
+#5 C:\xampp\htdocs\estore\wp-admin\includes\post.php(1852): wp_update_post(Array)
+#6 C:\xampp\htdocs\estore\wp-content\plugins\elementor\core\base\document. in C:\xampp\htdocs\estore\wp-content\plugins\elementor\includes\template-library\sources\local.php on line 1081
+
+2020-06-25T06:10:05+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, instance of stdClass given, called in C:\xampp\htdocs\estore\wp-includes\class-wp-hook.php on line 289 and defined in C:\xampp\htdocs\estore\wp-content\plugins\elementor\includes\template-library\sources\local.php:1081
+Stack trace:
+#0 C:\xampp\htdocs\estore\wp-includes\class-wp-hook.php(289): Elementor\TemplateLibrary\Source_Local->on_save_post(1309, Object(stdClass))
+#1 C:\xampp\htdocs\estore\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\estore\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\estore\wp-includes\post.php(4153): do_action('save_post', 1309, Object(stdClass), true)
+#4 C:\xampp\htdocs\estore\wp-includes\post.php(4244): wp_insert_post(Array, false)
+#5 C:\xampp\htdocs\estore\wp-content\plugins\elementor\core\settings\page\manager.php(140): wp_update_post(Array)
+#6 C:\xampp\htdocs\estore\wp-content\plugi in C:\xampp\htdocs\estore\wp-content\plugins\elementor\includes\template-library\sources\local.php on line 1081
+

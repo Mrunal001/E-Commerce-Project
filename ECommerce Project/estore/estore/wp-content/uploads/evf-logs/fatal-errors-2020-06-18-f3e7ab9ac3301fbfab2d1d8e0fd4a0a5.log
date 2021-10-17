@@ -1,0 +1,62 @@
+2020-06-18T02:36:15+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2020-06-18T02:36:19+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2020-06-18T02:36:19+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2020-06-18T02:36:19+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2020-06-18T02:36:19+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2020-06-18T02:36:19+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2020-06-18T02:36:38+00:00 CRITICAL Uncaught Error: Call to undefined method DateTime::format() in C:\xampp\htdocs\estore\wp-includes\formatting.php:3537
+Stack trace:
+#0 C:\xampp\htdocs\estore\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php(783): get_gmt_from_date('2020-06-15 16:0...')
+#1 C:\xampp\htdocs\estore\wp-content\plugins\woocommerce\includes\class-wc-customer.php(779): WC_Data->set_date_prop('date_created', '2020-06-15 16:0...')
+#2 C:\xampp\htdocs\estore\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php(668): WC_Customer->set_date_created('2020-06-15 16:0...')
+#3 C:\xampp\htdocs\estore\wp-content\plugins\woocommerce\includes\data-stores\class-wc-customer-data-store.php(170): WC_Data->set_props(Array)
+#4 C:\xampp\htdocs\estore\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(159): WC_Customer_Data_Store->read(Object(WC_Customer))
+#5 C:\xampp\htdocs\estore\wp-content\plugins\woocommerce\includes\class-wc-customer.php(104): WC_Data_Store->read(Object(WC_Customer))
+#6 C:\xampp\htdo
+
+2020-06-18T02:36:38+00:00 CRITICAL Uncaught Error: Call to undefined method DateTime::format() in C:\xampp\htdocs\estore\wp-includes\formatting.php:3537
+Stack trace:
+#0 C:\xampp\htdocs\estore\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php(783): get_gmt_from_date('2020-06-15 16:0...')
+#1 C:\xampp\htdocs\estore\wp-content\plugins\woocommerce\includes\class-wc-customer.php(779): WC_Data->set_date_prop('date_created', '2020-06-15 16:0...')
+#2 C:\xampp\htdocs\estore\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php(668): WC_Customer->set_date_created('2020-06-15 16:0...')
+#3 C:\xampp\htdocs\estore\wp-content\plugins\woocommerce\includes\data-stores\class-wc-customer-data-store.php(170): WC_Data->set_props(Array)
+#4 C:\xampp\htdocs\estore\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(159): WC_Customer_Data_Store->read(Object(WC_Customer))
+#5 C:\xampp\htdocs\estore\wp-content\plugins\woocommerce\includes\class-wc-customer.php(104): WC_Data_Store->read(Object(WC_Customer))
+#6 C:\xampp\htdo
+
+2020-06-18T02:36:38+00:00 CRITICAL Uncaught Error: Call to undefined method DateTime::format() in C:\xampp\htdocs\estore\wp-includes\formatting.php:3537
+Stack trace:
+#0 C:\xampp\htdocs\estore\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php(783): get_gmt_from_date('2020-06-15 16:0...')
+#1 C:\xampp\htdocs\estore\wp-content\plugins\woocommerce\includes\class-wc-customer.php(779): WC_Data->set_date_prop('date_created', '2020-06-15 16:0...')
+#2 C:\xampp\htdocs\estore\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php(668): WC_Customer->set_date_created('2020-06-15 16:0...')
+#3 C:\xampp\htdocs\estore\wp-content\plugins\woocommerce\includes\data-stores\class-wc-customer-data-store.php(170): WC_Data->set_props(Array)
+#4 C:\xampp\htdocs\estore\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(159): WC_Customer_Data_Store->read(Object(WC_Customer))
+#5 C:\xampp\htdocs\estore\wp-content\plugins\woocommerce\includes\class-wc-customer.php(104): WC_Data_Store->read(Object(WC_Customer))
+#6 C:\xampp\htdo
+
+2020-06-18T02:36:38+00:00 CRITICAL Uncaught Error: Call to undefined method DateTime::format() in C:\xampp\htdocs\estore\wp-includes\formatting.php:3537
+Stack trace:
+#0 C:\xampp\htdocs\estore\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php(783): get_gmt_from_date('2020-06-15 16:0...')
+#1 C:\xampp\htdocs\estore\wp-content\plugins\woocommerce\includes\class-wc-customer.php(779): WC_Data->set_date_prop('date_created', '2020-06-15 16:0...')
+#2 C:\xampp\htdocs\estore\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php(668): WC_Customer->set_date_created('2020-06-15 16:0...')
+#3 C:\xampp\htdocs\estore\wp-content\plugins\woocommerce\includes\data-stores\class-wc-customer-data-store.php(170): WC_Data->set_props(Array)
+#4 C:\xampp\htdocs\estore\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(159): WC_Customer_Data_Store->read(Object(WC_Customer))
+#5 C:\xampp\htdocs\estore\wp-content\plugins\woocommerce\includes\class-wc-customer.php(104): WC_Data_Store->read(Object(WC_Customer))
+#6 C:\xampp\htdo
+
+2020-06-18T02:36:38+00:00 CRITICAL Uncaught Error: Call to undefined method DateTime::format() in C:\xampp\htdocs\estore\wp-includes\formatting.php:3537
+Stack trace:
+#0 C:\xampp\htdocs\estore\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php(783): get_gmt_from_date('2020-06-15 16:0...')
+#1 C:\xampp\htdocs\estore\wp-content\plugins\woocommerce\includes\class-wc-customer.php(779): WC_Data->set_date_prop('date_created', '2020-06-15 16:0...')
+#2 C:\xampp\htdocs\estore\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php(668): WC_Customer->set_date_created('2020-06-15 16:0...')
+#3 C:\xampp\htdocs\estore\wp-content\plugins\woocommerce\includes\data-stores\class-wc-customer-data-store.php(170): WC_Data->set_props(Array)
+#4 C:\xampp\htdocs\estore\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(159): WC_Customer_Data_Store->read(Object(WC_Customer))
+#5 C:\xampp\htdocs\estore\wp-content\plugins\woocommerce\includes\class-wc-customer.php(104): WC_Data_Store->read(Object(WC_Customer))
+#6 C:\xampp\htdo
+

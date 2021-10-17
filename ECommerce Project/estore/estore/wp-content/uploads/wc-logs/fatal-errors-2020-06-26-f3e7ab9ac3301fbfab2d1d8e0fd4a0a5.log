@@ -1,0 +1,26 @@
+2020-06-26T03:00:57+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\estore\wp-content\themes\estore\inc\admin\meta-boxes.php on line 13
+
+2020-06-26T03:00:57+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\estore\wp-content\themes\estore\inc\admin\meta-boxes.php on line 13
+
+2020-06-26T03:00:57+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\estore\wp-content\themes\estore\inc\admin\meta-boxes.php on line 13
+
+2020-06-26T03:01:07+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\estore\wp-admin\includes\class-custom-image-header.php on line 14
+
+2020-06-26T03:01:09+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\estore\wp-admin\includes\class-wp-screen.php on line 15
+
+2020-06-26T03:01:09+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\estore\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\RestApi\Controllers\Variations.php on line 13
+
+2020-06-26T09:31:46+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\estore\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\API\Reports\Controller.php on line 12
+
+2020-06-26T09:31:46+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\estore\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\API\Reports\Controller.php on line 12
+
+ 12
+
+2020-06-26T09:31:46+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\estore\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\API\Reports\Import\Controller.php on line 12
+
+2020-06-26T09:31:46+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\estore\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\API\Reports\Import\Controller.php on line 12
+
+2020-06-26T09:33:28+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\estore\wp-content\plugins\yith-woocommerce-wishlist\includes\class.yith-wcwl-cron.php on line 10
+
+2020-06-26T09:33:48+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\estore\wp-content\plugins\elementor\includes\base\controls-stack.php on line 8
+

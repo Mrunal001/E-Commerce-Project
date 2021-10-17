@@ -1,0 +1,30 @@
+2020-07-08T03:17:15+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2020-07-08T03:17:45+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2020-07-08T05:44:35+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2020-07-08T08:31:22+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2020-07-08T08:31:24+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2020-07-08T08:31:24+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2020-07-08T08:31:25+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2020-07-08T08:32:08+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2020-07-08T08:32:42+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2020-07-08T09:09:48+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2020-07-08T13:18:07+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, null given, called in C:\xampp\htdocs\estore\wp-includes\class-wp-hook.php on line 289 and defined in C:\xampp\htdocs\estore\wp-content\plugins\elementor\includes\template-library\sources\local.php:1081
+Stack trace:
+#0 C:\xampp\htdocs\estore\wp-includes\class-wp-hook.php(289): Elementor\TemplateLibrary\Source_Local->on_save_post(0, NULL)
+#1 C:\xampp\htdocs\estore\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\estore\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\estore\wp-includes\post.php(4153): do_action('save_post', 0, NULL, false)
+#4 C:\xampp\htdocs\estore\wp-includes\class-wp-customize-manager.php(2956): wp_insert_post(Array, true)
+#5 C:\xampp\htdocs\estore\wp-includes\class-wp-customize-manager.php(2507): WP_Customize_Manager->save_changeset_post(Array)
+#6 C:\xampp\htdocs\estore\wp-includes\class-wp-hook.php
+

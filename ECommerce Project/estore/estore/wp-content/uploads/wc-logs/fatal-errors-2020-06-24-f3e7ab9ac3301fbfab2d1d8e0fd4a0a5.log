@@ -1,0 +1,20 @@
+2020-06-24T10:17:48+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\estore\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\API\Reports\Products\Controller.php on line 12
+
+2020-06-24T10:17:48+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\estore\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\API\Reports\Products\Controller.php on line 12
+
+2020-06-24T10:17:48+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\estore\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\API\Reports\Products\Controller.php on line 12
+
+2020-06-24T10:17:48+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\estore\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\API\Reports\Products\Controller.php on line 12
+
+2020-06-24T10:17:49+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\estore\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\API\Reports\Taxes\Controller.php on line 12
+
+2020-06-24T13:45:32+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, instance of stdClass given, called in C:\xampp\htdocs\estore\wp-includes\class-wp-hook.php on line 289 and defined in C:\xampp\htdocs\estore\wp-content\plugins\elementor\includes\template-library\sources\local.php:1081
+Stack trace:
+#0 C:\xampp\htdocs\estore\wp-includes\class-wp-hook.php(289): Elementor\TemplateLibrary\Source_Local->on_save_post(1279, Object(stdClass))
+#1 C:\xampp\htdocs\estore\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\estore\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\estore\wp-includes\post.php(4153): do_action('save_post', 1279, Object(stdClass), true)
+#4 C:\xampp\htdocs\estore\wp-includes\post.php(4244): wp_insert_post(Array, false)
+#5 C:\xampp\htdocs\estore\wp-content\plugins\elementor\core\settings\page\manager.php(140): wp_update_post(Array)
+#6 C:\xampp\htdocs\estore\wp-content\plugi in C:\xampp\htdocs\estore\wp-content\plugins\elementor\includes\template-library\sources\local.php on line 1081
+
